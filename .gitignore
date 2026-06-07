@@ -1,0 +1,71 @@
+# ====================
+# 用户指定排除
+# ====================
+ZIP/
+.claude/
+
+# ====================
+# Keil MDK 编译产物
+# ====================
+*.axf
+*.o
+*.d
+*.crf
+*.lnp
+*.dep
+*.lst
+*.htm
+*.build_log.htm
+*.sct
+*.iex
+*.map
+*.hex
+*.bin
+DebugConfig/
+Listings/
+Objects/
+JLinkLog.txt
+JLinkSettings.ini
+
+# ====================
+# Keil MDK 用户配置（不同机器不同）
+# ====================
+*.uvguix.*
+*.uvoptx
+*.scvd
+
+# ====================
+# STM32CubeMX 生成（按需调整）
+# ====================
+# 如果使用 CubeMX 重新生成，这些文件会被覆盖
+# 取消下面注释则不跟踪 HAL 驱动
+# Drivers/CMSIS/
+# Drivers/STM32F4xx_HAL_Driver/
+
+# ====================
+# Python
+# ====================
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# ====================
+# 系统 & IDE
+# ====================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+*.bak
+*.tmp
